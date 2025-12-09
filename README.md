@@ -1,7 +1,10 @@
-[![Category](https://img.shields.io/badge/Focus-Cybersecurity-blue)]()
-[![Discipline](https://img.shields.io/badge/Areas-GRC%20%7C%20Cloud%20%7C%20AppSec-lightgrey)]()
-[![Status](https://img.shields.io/badge/Maintained-Yes-brightgreen)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue)]()
+[![Python](https://img.shields.io/badge/Language-Python-yellow)]()
+[![AWS](https://img.shields.io/badge/Cloud-AWS-orange)]()
+[![Splunk](https://img.shields.io/badge/SIEM-Splunk-lightgrey)]()
+[![Nessus](https://img.shields.io/badge/Vulnerability%20Scanning-Nessus-green)]()
+[![KACE](https://img.shields.io/badge/Endpoint%20Mgmt-KACE-blueviolet)]()
+[![CrowdStrike](https://img.shields.io/badge/EDR-CrowdStrike-red)]()
 
 # CG-Security
 
