@@ -1,3 +1,8 @@
+[![Category](https://img.shields.io/badge/Focus-Cybersecurity-blue)]()
+[![Discipline](https://img.shields.io/badge/Areas-GRC%20%7C%20Cloud%20%7C%20AppSec-lightgrey)]()
+[![Status](https://img.shields.io/badge/Maintained-Yes-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+
 # CG-Security
 
 This profile contains security-focused projects, documentation, and reference material across governance, cloud security, application security, and operational security practices. The goal is to present practical, repeatable workflows and tools that strengthen real-world security programs.
