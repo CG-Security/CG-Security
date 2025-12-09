@@ -23,6 +23,8 @@
 
 This profile contains security-focused projects, documentation, and reference material across governance, cloud security, application security, and operational security practices. The goal is to present practical, repeatable workflows and tools that strengthen real-world security programs.
 
+---
+
 ## Top Skills
 
 ### Governance, Risk, and Compliance (GRC)
@@ -35,20 +37,20 @@ This profile contains security-focused projects, documentation, and reference ma
 ### Cloud Security
 - AWS IAM, MFA, identity boundaries, and least-privilege design
 - Secure configuration of EC2, ALB, S3, RDS, and VPC components
-- Encryption, KMS usage, and secure automation practices
-- Hands-on security lab development and testing
+- Encryption, KMS usage, and automation fundamentals
+- Hands-on labs to reinforce real-world cloud security practices
 
 ### Application and Supply-Chain Security
 - Software supply-chain risk identification
-- Dependency and package auditing workflows
-- Scripted scanning and validation tools (for example, npm vulnerability detection)
-- Documentation of exposure validation steps
+- Dependency/package auditing workflows
+- Scripted scanning and validation tools (e.g., npm malicious package detection)
+- Secure coding and input validation examples
 
 ### Operational Security and Tooling
-- Vulnerability management, patch cycles, and remediation workflows
+- Vulnerability management and patch lifecycle workflows
 - Endpoint protection and EDR visibility
-- Log analysis and SIEM queries
-- Security process automation and checklist-based execution
+- Log analysis, SIEM queries, and monitoring expectations
+- Security process automation and checklist-driven execution
 
 ### Technical Tools and Languages
 - PowerShell and Python scripting
@@ -56,23 +58,33 @@ This profile contains security-focused projects, documentation, and reference ma
 - AWS CLI and cloud automation fundamentals
 - Secure configuration baselines and environment hardening
 
+---
+
 ## Repositories by Category
 
 ### GRC and Security Operations
-- GRC-Practical-Checklists  
+- **Security-SOP-Runbooks**  
+  A complete library of security Standard Operating Procedures (SOPs) covering IAM, access reviews, patching, vendor onboarding/offboarding, vulnerability management, incident triage, audit evidence collection, and logging/monitoring. Includes a Templates folder for operational execution.
+
+- **GRC-Practical-Checklists**  
   Practical GRC checklists for access reviews, patching workflows, vendor assessments, system onboarding, and incident intake procedures.
 
 ### Application and Supply-Chain Security
-- npm-shai-hulud-audit-tools  
-  PowerShell-based detection toolkit for identifying Node.js installations and scanning for malicious npm packages linked to the Shai-Hulud supply-chain incident.
+- **npm-shai-hulud-audit-tools**  
+  PowerShell-based detection toolkit for identifying Node.js installations and scanning for malicious npm packages associated with the Shai-Hulud supply-chain incident.
+
+- **AppSec-Input-Validation**  
+  Application security reference demonstrating secure input validation patterns and safe handling of untrusted data across common development scenarios.
 
 ### Cloud Security
 - **AWS-Security-Labs**  
-  Hands-on AWS security exercises focused on identity and access management fundamentals. Current labs include IAM user creation, secure password policy configuration, and access key management. Additional labs will expand into role-based access, MFA enforcement, resource boundaries, EC2 and S3 security, encryption practices, and automated auditing.
+  Hands-on AWS security exercises focused on IAM fundamentals, secure password policy configuration, MFA requirements, access key management, and identity boundaries. Future labs will expand into EC2, S3, encryption, and automated auditing.
 
 ### Documentation and Reference
-- CISSP-Notes-Raw  
-  Security study notes and outlines covering architecture, risk management, software security, network security, and cloud concepts.
+- **CISSP-Notes-Raw**  
+  Study notes covering architecture, governance, risk management, software security, network security, cloud concepts, and more.
+
+---
 
 ## Purpose
 
@@ -83,12 +95,17 @@ These repositories emphasize clarity, practicality, and repeatability. Each proj
 - Hands-on exploration of cloud and application security concepts
 - Lightweight tools to aid security assessments
 
+---
+
 ## Current Work
 
-- Expanding GRC checklist coverage
-- Developing security automation scripts and tools
-- Documenting operational security workflows
-- Continuing cloud security lab development
+- Expanding SOP and template coverage for the Security-SOP-Runbooks project
+- Adding secure coding scenarios to AppSec repositories
+- Expanding GRC checklist coverage and evidence examples
+- Continuing development in AWS security lab exercises
+- Building automation scripts to support GRC and SecOps workflows
+
+---
 
 ## Contact
 
